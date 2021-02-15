@@ -1,0 +1,77 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * active:
+ *   - http://typekit.com/eulas/00000000000000007735bc81
+ * acumin-pro-condensed:
+ *   - http://typekit.com/eulas/00000000000000003b9acb04
+ *   - http://typekit.com/eulas/00000000000000003b9acb05
+ *   - http://typekit.com/eulas/00000000000000003b9acb0c
+ *   - http://typekit.com/eulas/00000000000000003b9acb0d
+ * acumin-pro-extra-condensed:
+ *   - http://typekit.com/eulas/00000000000000003b9acb20
+ *   - http://typekit.com/eulas/00000000000000003b9acb18
+ * quita:
+ *   - http://typekit.com/eulas/00000000000000007735cd61
+ *
+ * © 2009-2020 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2021-02-10 16:52:35 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=leu2cgb&ht=tk&f=26002.26003.26008.26009.26016.26032.40023.42817&a=23069222&app=typekit&e=css");
+
+@font-face {
+font-family:"acumin-pro-condensed";
+src:url("https://use.typekit.net/af/44ed7f/00000000000000003b9acb04/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("woff2"),url("https://use.typekit.net/af/44ed7f/00000000000000003b9acb04/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("woff"),url("https://use.typekit.net/af/44ed7f/00000000000000003b9acb04/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:200;
+}
+
+@font-face {
+font-family:"acumin-pro-condensed";
+src:url("https://use.typekit.net/af/d15900/00000000000000003b9acb05/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i2&v=3") format("woff2"),url("https://use.typekit.net/af/d15900/00000000000000003b9acb05/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i2&v=3") format("woff"),url("https://use.typekit.net/af/d15900/00000000000000003b9acb05/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i2&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:200;
+}
+
+@font-face {
+font-family:"acumin-pro-condensed";
+src:url("https://use.typekit.net/af/7bebb5/00000000000000003b9acb0c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff2"),url("https://use.typekit.net/af/7bebb5/00000000000000003b9acb0c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff"),url("https://use.typekit.net/af/7bebb5/00000000000000003b9acb0c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:600;
+}
+
+@font-face {
+font-family:"acumin-pro-condensed";
+src:url("https://use.typekit.net/af/c52e09/00000000000000003b9acb0d/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3") format("woff2"),url("https://use.typekit.net/af/c52e09/00000000000000003b9acb0d/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3") format("woff"),url("https://use.typekit.net/af/c52e09/00000000000000003b9acb0d/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:600;
+}
+
+@font-face {
+font-family:"acumin-pro-extra-condensed";
+src:url("https://use.typekit.net/af/c4767b/00000000000000003b9acb20/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/c4767b/00000000000000003b9acb20/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/c4767b/00000000000000003b9acb20/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"acumin-pro-extra-condensed";
+src:url("https://use.typekit.net/af/ca6558/00000000000000003b9acb18/27/l?subset_id=2&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/ca6558/00000000000000003b9acb18/27/d?subset_id=2&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/ca6558/00000000000000003b9acb18/27/a?subset_id=2&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;
+}
+
+@font-face {
+font-family:"active";
+src:url("https://use.typekit.net/af/d3c445/00000000000000007735bc81/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/d3c445/00000000000000007735bc81/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/d3c445/00000000000000007735bc81/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"quita";
+src:url("https://use.typekit.net/af/791969/00000000000000007735cd61/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/791969/00000000000000007735cd61/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/791969/00000000000000007735cd61/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+.tk-acumin-pro-condensed { font-family: "acumin-pro-condensed",sans-serif; }
+.tk-acumin-pro-extra-condensed { font-family: "acumin-pro-extra-condensed",sans-serif; }
+.tk-active { font-family: "active",sans-serif; }
+.tk-quita { font-family: "quita",sans-serif; }

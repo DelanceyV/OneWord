@@ -72,8 +72,8 @@
                 <div class="collapse navbar-collapse" id="theNavbar">
                     <ul class="navbar-nav">
                         <li class="nav-item"><a class="nav-link" href="aboutUs.html">About Us</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="donate.html">Donate</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="#">Donate</a></li>
                         <li class="nav-item"><a class="nav-link" href="volunteer.html">Volunteer</a></li>
                         <li class="nav-item"><a class="nav-link" href="contactUs.html">Contact Us</a></li>
                         <li class="nav-item"><a class="nav-link" href="calendar.html">Calendar</a></li>
@@ -82,55 +82,56 @@
             </div>
         </nav>
 
-        <div class="container-fluid">
+        <div class="containter">
             <div class="row">
-                <div class="col-fluid align-items-center">
-                    <img class="pics d-none d-sm-block" src="images/people.png" alt="happy people reading!"/>
-                </div>
-                <div class="col">
-                    <div class="card eventsCard">
-                        <div class="card-header">
-                            <h2 class="card-title">Upcoming Events</h2>
+                <div class="col-10 col-lg-8 offset-1 offset-lg-2">
+                    <div class="card">
+                        <div class="card-title">
                         </div>
                         <div class="card-body">
-                            <h3>A Brunch of Books!</h3>
-                            <h4 class="subheading">Reading Group - Every 3<span class="small">RD</span> Thursday</h4>
-                            <span><span class="standOut fontMainBold">Time: </span> 11<span class="small">AM</span> Thursday, February 18<span class="small">TH</span></span>
-                        </br>
-                            <span class="standOut fontMainBold">Place: </span><a href="https://loganstmarket.com/" alt="click to go to the Logan Street Market website" class="fontMain"><span> the</span><span class="standOut"> Logan Street Market</span></a>
-                    </br>
-                    </br>
-                        <h3>Writers Group</h3>
-                        <h4 class="subheading">Every 2<span class="small">ND</span> and 4<span class="small">TH</span> Thursday</h4>
-                            <span><span class="standOut fontMainBold">Time: </span> 11<span class="small">AM</span> Thursday, February 18<span class="small">TH</span></span>
-                        </br>
-                            <span class="standOut fontMainBold">Place: </span><a href="https://loganstmarket.com/" alt="click to go to the Logan Street Market website" class="fontMain"><span> the</span><span class="standOut"> Logan Street Market</span></a>
+                            <form id="donateForm">
+                                <div class="form-group row">
+                                    <label class="col col-sm-6 col-form-label" for="numCampers">Number of Campers</label>
+                                    <div class="col col-12 col-sm-6">
+                                        <select class="form-control" id="numCampers">
+                                            <option>Select...</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                            <option>6</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col col-sm-6 col-form-label" for="date">Date</label>
+                                    <input class="col col-12 col-sm-6 form-control" type="date" id="date" name="date" placeholder="mm/dd/yyyy"/>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col col-12 col-sm-6 col-form-label">Campsite Type</label>
+                                    <div class="col col-2 btn-group btn-group-toggle" data-toggle="buttons">
+                                        <label class="btn btn-success active">
+                                            <input type="radio" name="siteType" id="siteTent" autocomplete="off" checked> Tent
+                                        </label>
+                                        <label class="btn btn-primary">
+                                            <input type="radio" name="siteType" id="siteRV" autocomplete="off"> RV
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col">
+                                        <button type="button" class="btn btn-secondary closeModal">Cancel</button>
+                                        <button type="button" class="btn btn-primary">Search</button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="container-fluid">
-
-        </div>
-
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col">
-                    <h2 class="fontMainBold">OneWord Nonprofit</h2>
-                    <h3>Promoting Literacy and Learning in the Shelby Park Area</h3>
-                    <p>OneWord nonprofit provides literacy access, education, and creative expression to the Shelby Park community in Louisville Kentucky</p>
-                </div>
-                <div class="col">
-                    <button class="btn donateBtn float-right fontMainBold">DONATE</button>
-                    <!--Look into paypal for donate button-->
-                </div>
-            </div>
-        </div>
         
-
-
         <footer class="footerMain">
             <div class="container-fluid">
                 <div class="row">
@@ -146,12 +147,9 @@
             </div>
         </footer>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-        <script src="js/scripts.js"></script>
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-        
 
     </body>
 
